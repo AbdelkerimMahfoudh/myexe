@@ -11,7 +11,7 @@ export const Banner = () => {
     const [delta,setDelta] = useState(300 - Math.random()*100);
     useEffect(() => {
         let ticker = setInterval(() => {
-            ticker();
+           
         }, delta);
     },)
     return(
